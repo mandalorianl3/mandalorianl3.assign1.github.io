@@ -101,6 +101,10 @@ main h3 {
     
 }
 
+div a:active {
+    color: orange;
+}
+
 footer {
     text-align: center;
     font-size: 13px;
@@ -132,7 +136,8 @@ ul {
     text-align: center;
     display: block;
     width: 160px;
-    padding:0;
+    padding-top: .5em;
+    padding-bottom: .5em;
     text-decoration: none;
     background-color: black;
     color:white;
