@@ -1,0 +1,178 @@
+html {
+    background-image: url("images/bats.gif");
+    background-color: white;
+}
+
+body {
+    font-family: sans-serif;
+    border: 5px solid black;
+    width: 800px;
+    margin: auto; 
+    background-color: white;
+    box-shadow: 0px 0px 20px 20px black;
+}
+
+body sidenav {
+    position: fixed;
+    display: block;
+    margin-top: 20px;
+    width: 160px;
+}
+
+header{
+    border-bottom: 5px solid black;
+    padding: 10px;
+    background-image: linear-gradient(45deg, white, orange 75%, black);
+}
+
+header img {
+    float: left;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    text-indent: 10px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+header h3 {
+    text-indent: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main div {
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 180px;
+    margin-top: 0px;
+    
+}
+
+main h1::first-letter {
+    font-size: 40px;
+}
+
+main h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+main h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+main h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    border-top: 5px solid black;
+    background-image: linear-gradient(45deg, black, orange 25%, white);
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+#bar ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+#bar ul li {
+    float: left;
+    margin: 0px;
+}
+#bar ul li a {
+    text-align: center;
+    display: block;
+    width: 160px;
+    padding:0;
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+
+#bar li a:hover {
+    background-color: grey;
+}
+
+#bar ul li a.current {
+    color: orange;
+}
+
+#bar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#bar ul ul li {
+    float: none;
+}
+#bar ul li:hover > ul {
+    display: block;
+}
+
+#bar > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#bar a.act {
+    color: orange;
+}
+
+
+#sidenav ul {
+    margin-top: 20px;
+    width: 120px;
+    float: left;
+}
+
+#sidenav li {
+    margin-top: 10px;
+}
+
+#sidenav li a {
+    padding: 3px;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+}
+
+div a:link {
+    color: #ff9933;
+    font-weight:600
+}
+
+div a:hover {
+    color: green;
+}
